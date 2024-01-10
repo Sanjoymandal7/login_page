@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -12,7 +12,8 @@
 
 <div class="wrapper">
 
-    <div class="form-box login">
+    <!-- login class -->
+    <div id="login-box" class="form-box login">   
        <h2>Login</h2>
         <form action="#">
 
@@ -38,8 +39,8 @@
             </div>
             <button type="submit" class="btn">Login</button>
             <div class="login-register">
-                <p>Don't have an account? <a href="#"
-                    class="register-link">Register</a></p>
+                <p>Don't have an account? <a id="popupBtn1" href="#"
+                    class="register-link popupBtn">Register</a></p>
 
             </div>
            
@@ -47,7 +48,8 @@
         </form>
     </div>
 
-    <div class="form-box register">
+    <!-- register box -->
+    <div id="register-box" class="form-box register">
         <h2>Registration</h2>
          <form action="#">
             <div class="input-box">
@@ -78,8 +80,8 @@
 
              <button type="submit" class="btn">Register</button>
              <div class="login-register">
-                 <p>Already have an account? <a href="#"
-                     class="login-link">Login</a></p>
+                 <p>Already have an account? <a id="popupBtn2" href="#"
+                     class="login-link popupBtn">Login</a></p>
  
              </div>
             
