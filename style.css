@@ -42,7 +42,7 @@ body {
 
 }
 .wrapper .form-box.login {
-    display: absolute;
+    display: none;
 }
     
 
@@ -50,7 +50,7 @@ body {
 .wrapper .form-box.register {
     position: absolute;
     transition: none;
-    display: none;
+    display: block;
     
     
     
